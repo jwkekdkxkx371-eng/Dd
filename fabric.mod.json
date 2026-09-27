@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "empty_mod",
+  "version": "${version}",
+  "name": "Empty Mod",
+  "description": "Renders crisp MSDF text while Right Shift is held.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.dd.empty.EmptyMod"
+    ],
+    "client": [
+      "dev.dd.empty.MsdfClient"
+    ]
+  },
+  "depends": {
+    "fabric-api": ">=0.119.2",
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
